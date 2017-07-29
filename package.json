@@ -1,0 +1,37 @@
+{
+  "name": "calendar-icons",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [
+    "calendar",
+    "icons"
+  ],
+  "author": {
+    "name": "Rikishi",
+    "email": "bufpost@yandex.ru",
+    "url": "https://github.com/Katochimoto"
+  },
+  "bugs": {
+    "url": "https://github.com/Katochimoto/calendar-icons/issues",
+    "email": "bufpost@yandex.ru"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Katochimoto/calendar-icons.git"
+  },
+  "scripts": {
+    "build": "gulp",
+    "clean": "gulp clean"
+  },
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-cheerio": "^0.6.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-svg-sprites": "^4.1.2",
+    "gulp-svgmin": "^1.2.4"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  }
+}
