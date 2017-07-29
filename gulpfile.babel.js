@@ -9,19 +9,19 @@ import fs from 'fs';
 export function ico() {
   return gulp.src('src/ico/*.svg')
     .pipe(svgmin({
-      js2svg: {
-        pretty: true
-      }
+      // js2svg: {
+      //   pretty: true
+      // }
     }))
-    .pipe(cheerio({
-      run: function ($) {
-        //$('[fill]').removeAttr('fill');
-        //$('[style]').removeAttr('style');
-      },
-      parserOptions: {
-        xmlMode: true
-      }
-    }))
+    // .pipe(cheerio({
+    //   run: function ($) {
+    //     $('[fill]').removeAttr('fill');
+    //     $('[style]').removeAttr('style');
+    //   },
+    //   parserOptions: {
+    //     xmlMode: true
+    //   }
+    // }))
     .pipe(replace('&gt;', '>'))
     .pipe(svgSprite({
       mode: 'symbols',
