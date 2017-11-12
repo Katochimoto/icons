@@ -1,13 +1,32 @@
+import path from 'path';
 import gulp from 'gulp';
 import del from 'del';
 import svgSprite from 'gulp-svg-sprites';
 import svgmin from 'gulp-svgmin';
 import cheerio from 'gulp-cheerio';
 import replace from 'gulp-replace';
+import filter from 'gulp-filter';
 import fs from 'fs';
+
+const {
+  exclude = [],
+  include = []
+} = require('./package.json').icons || {};
 
 export function ico() {
   return gulp.src('src/ico/*.svg')
+    .pipe(filter(function (file) {
+      const fileName = path.basename(file.path, '.svg');
+
+      if (
+        (exclude.length && exclude.indexOf(fileName) !== -1) ||
+        (include.length && include.indexOf(fileName) === -1)
+      ) {
+        return false;
+      }
+
+      return true;
+    }))
     .pipe(svgmin({
       js2svg: {
         pretty: true
