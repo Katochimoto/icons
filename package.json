@@ -18,14 +18,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Katochimoto/calendar-icons.git"
+    "url": "https://github.com/Katochimoto/calendar-icons.git"
   },
   "scripts": {
     "build": "gulp",
     "clean": "gulp clean",
     "install": "gulp"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.26.0",
     "del": "^3.0.0",
