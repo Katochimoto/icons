@@ -3,4 +3,5 @@
 !README.md
 !package.json
 !gulpfile.babel.js
+!.babelrc
 !src/*
