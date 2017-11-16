@@ -42,8 +42,10 @@
     "exclude": [],
     "include": [
       "facebook",
+      "github",
       "linkedin",
-      "github"
+      "loader",
+      "menu"
     ]
   }
 }
