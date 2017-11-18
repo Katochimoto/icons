@@ -40,12 +40,6 @@
   },
   "icons": {
     "exclude": [],
-    "include": [
-      "facebook",
-      "github",
-      "linkedin",
-      "loader",
-      "menu"
-    ]
+    "include": []
   }
 }
