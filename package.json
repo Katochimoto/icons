@@ -39,6 +39,29 @@
   },
   "icons": {
     "exclude": [],
-    "include": []
+    "include": [
+      "chevron-thin-left",
+      "facebook",
+      "github",
+      "instagram",
+      "key",
+      "linkedin",
+      "loader",
+      "location",
+      "menu",
+      "npm",
+      "paypal",
+      "phone",
+      "pinterest",
+      "qr",
+      "rss",
+      "skype",
+      "telegram",
+      "twitter",
+      "upwork",
+      "v-card",
+      "viber",
+      "whatsapp"
+    ]
   }
 }
