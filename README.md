@@ -1,3 +1,4 @@
 # calendar-icons
 
-http://www.entypo.com/
+https://github.com/danielbruce/entypo/
+https://github.com/simple-icons/simple-icons/
