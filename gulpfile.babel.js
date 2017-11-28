@@ -44,7 +44,10 @@ export function ico() {
     .pipe(replace('&gt;', '>'))
     .pipe(svgSprite({
       mode: 'symbols',
-      selector: 'icon-%f'
+      selector: 'icon-%f',
+      templates: {
+        symbols: fs.readFileSync(path.join(__dirname, 'src', 'symbols.svg'), 'utf-8')
+      }
     }))
     .pipe(gulp.dest('dist'));
 }
