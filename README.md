@@ -1,4 +1,4 @@
-# calendar-icons
+# icons
 
 https://github.com/danielbruce/entypo/
 
