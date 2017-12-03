@@ -1,9 +1,8 @@
 {
-  "name": "calendar-icons",
+  "name": "icons",
   "description": "",
   "version": "0.0.1",
   "keywords": [
-    "calendar",
     "icons"
   ],
   "author": {
@@ -12,13 +11,13 @@
     "url": "https://github.com/Katochimoto"
   },
   "bugs": {
-    "url": "https://github.com/Katochimoto/calendar-icons/issues",
+    "url": "https://github.com/Katochimoto/icons/issues",
     "email": "bufpost@yandex.ru"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Katochimoto/calendar-icons.git"
+    "url": "https://github.com/Katochimoto/icons.git"
   },
   "scripts": {
     "build": "gulp",
