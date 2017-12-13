@@ -36,6 +36,7 @@ export function ico() {
       run: function ($) {
         $('[fill]').removeAttr('fill');
         $('[style]').removeAttr('style');
+        $('title').remove();
       },
       parserOptions: {
         xmlMode: true
@@ -53,7 +54,7 @@ export function ico() {
 }
 
 export function clean() {
-  return del(['dist']);
+  return del(['dist/**/*']);
 }
 
 const build = gulp.series(
